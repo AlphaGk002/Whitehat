@@ -1,6 +1,6 @@
 import whitehat
 
-p = whitehat.Phonenumber(input("\nEnter the Phone_number with country code:"))
+p = whitehat.phonenumber(input("\nEnter the Phone_number with country code:"))
 print("phone_number                            :",p.phone_number)
 print("region                                  :",p.region)
 print("timezone                                :",p.timezone)
